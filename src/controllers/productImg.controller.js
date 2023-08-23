@@ -1,6 +1,6 @@
 const catchError = require('../utils/catchError');
 const ProductImg = require('../models/ProductImg');
-const fs = require("fs") //file systen
+const fs = require("fs") //file system
 const path = require("path")
 
 const getAll = catchError(async(req, res) => {
